@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes com Google Fonts</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        /*Aqui em cima tem o código (em CSS) importado da fonte.*/
+        /*Sempre que a fonte tiver mais de um nome, colocque aspas para representar.
+          Exemplo aqui em baixo com 'Work Sans'.*/
+        @font-face {
+            font-family: 'fiolex girls';
+            src: url('Filxgirl.TTF') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            font-family: 'Work Sans', serif; /* google fonts tem essa e várias fontes.*/
+            font-size: 16px;
+            color: black;
+        } 
+        h1 {
+            font-family: 'fiolex girls', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus iste quasi quibusdam delectus
+    nesciunt labore, harum voluptatum nulla reprehenderit! Consectetur eligendi mollitia voluptas 
+    asperiores! Labore assumenda modi odit. Dolor, culpa.</p>
+</body>
+</html>

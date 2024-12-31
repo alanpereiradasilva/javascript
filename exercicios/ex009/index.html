@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="I"> <!--Se quiser começar de um número diferente de 1, use start -->
+        <!-- 5 opções de type: 1, A, a, I, i -->
+        <li>Acordar.</li>
+        <li>Ligar para o João.</li>
+        <li>Tomar café.</li>
+        <li>Escovar os dentes.</li>
+        <!--A partir da versão HTML 5, o </li> se tornou opcional-->
+        <li>Ir para a faculdade.</li>
+        <li>Almoçar.</li>
+        <li>Ir para o trabalho.</li>
+        <li>Voltar para casa.</li>
+        <li>Jantar.</li>
+        <li>Dormir.</li>
+    </ol>
+    <h2>Listas não Ordenadas</h2>
+    <ul type="disc">
+        <!-- 3 opções de type: disc, circle, square -->
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>CLIPPER</li>
+            <li>VISUAL BASIC</li>
+            <li>DELPHI</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="4"> <!-- Aqui o start está dando continuidade a sequência da
+            ordem da lista anterior. Mas o certo é não usá-lo mesmo(nesse caso).-->
+            <li>PHP</li>
+            <li>JAVASCRIPT</li>
+            <li>PYTHON</li>
+        </ol>
+    </ol>
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>Celular</li>
+        <ul type="square">
+            <li>Free Fire</li>
+            <ul type="disc">
+                <li>Peguei Elite na Rankeada.</li>
+                <li>Peguei Elite no CS.</li>
+            </ul>
+            <li>Shadow Fight 2</li>
+            <ul type="circle">
+                <li>Venci o Titã 2 vezes.</li>
+                <li>Cheguei a vencer o Karcer no nível 3 do submundo.</li>
+            </ul>
+        </ul> <!-- Selecione um botão, segure Alt e selcione outro para
+        modificar mais de um.-->
+        <li>PlayStation</li>
+        <ul type="disc">
+            <li>Fifa</li>
+            <li>GTA</li>
+        </ul>
+    </ol>
+    <h2>Lista de definições</h2>
+    <dl>
+        <dt>HTML</dt> <!-- Termo-->
+        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd> <!-- Descrição-->
+        <dt>CSS</dt> <!-- Termo-->
+        <dd>Linguagem de marcação para a criação do design de um site.</dd> <!-- Descrição-->
+        <dt>JavaScript</dt> <!-- Termo-->
+        <dd>Linguagem de programação para a criação de interatividade de um site.</dd> <!-- Descrição-->
+    </dl>
+</body>
+</html>
